@@ -1,0 +1,6 @@
+/* Prevent horizontal scroll caused by fixed/full-width elements */
+html, body {
+	overflow-x: hidden;
+}
+
+/* You can add global styles here. If you later enable Tailwind, replace or merge these with the Tailwind directives. */
