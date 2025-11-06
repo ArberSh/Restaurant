@@ -43,7 +43,7 @@ function Navigation() {
             <ArrowForwardIcon></ArrowForwardIcon>
             </div>
         </div>
-        <div className='max-[640px]:flex'>
+        <div className='max-[640px]:flex hidden'>
             <button>
                 <MenuIcon sx={{ color: scroll ? 'black' : 'white', fontSize: 40 }} onClick={()=>setOpenmenu(!Openmenu)}></MenuIcon>
             </button>
